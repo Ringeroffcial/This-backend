@@ -9,7 +9,7 @@ import {
     UpdateUserProfile,
     GetUserById,
     Logout
-} from '../controllers/userController.js';
+} from '../Controllers/UserController.js';
 import {
     authenticateToken,
     isAdmin,
