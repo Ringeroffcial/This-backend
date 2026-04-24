@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +13,6 @@
   "type": "module",
   "devDependencies": {
     "cors": "^2.8.6",
-    "dotenv": "^17.4.1",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
     "nodemon": "^3.1.14",
@@ -21,6 +21,7 @@
   "dependencies": {
     "@types/s2-geometry": "^1.2.0",
     "bcryptjs": "^3.0.3",
+    "dotenv": "^17.4.2",
     "express-rate-limit": "^8.3.2",
     "nodemailer": "^8.0.5",
     "rate-limit-redis": "^4.3.1",
